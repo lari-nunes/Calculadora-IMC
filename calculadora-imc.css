@@ -96,3 +96,7 @@ main{
     box-sizing: border-box;
     user-select: none;
 }
+
+#calcular, #limpar:hover{
+    background-color: linear-gradient(rgb(105, 9, 168),rgb(62, 23, 95),rgb(41, 4, 63));
+}
