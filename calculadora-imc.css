@@ -96,7 +96,3 @@ main{
     box-sizing: border-box;
     user-select: none;
 }
-
-#calcular, #limpar:hover{
-    color: black;
-}
