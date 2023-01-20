@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(105, 9, 168),rgb(62, 23, 95),rgb(41, 4, 63));
+  }
+
+.img-peso {
+    width: 850px;
+    height: 500px;
+    align-items:center;
+}
+  
+.container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(108, 39, 129),rgb(83, 12, 77),rgb(53, 3, 99));
+    color: white;
+    width: 400px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+}
+
+  
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font: bold 2.5rem serif;
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+  
+.input {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border:none;
+    justify-content: center;
+    outline: 0;
+    font: bold 1.5rem serif;
+    text-align: center;
+    color: rgb(65, 65, 65);
+}
+  
+.input label {
+    font: bold 1.5rem 'Poppins';
+}
+  
+#calcular, #limpar{
+    width: 300px;
+    height: 40px;
+    font: bold 1.0rem 'Poppins';
+    background: rgb(255, 255, 255);
+    color: rgb(65, 65, 65);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.result{
+    display: flex;
+    margin-top: 8px;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    font: bold 1.0rem 'Poppins';
+    box-shadow: 0px 0px 5px rgb(115, 4, 143);
+    background: rgb(255, 255, 255);
+    color: rgb(65, 65, 65);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
